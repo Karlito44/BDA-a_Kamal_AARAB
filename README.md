@@ -8,7 +8,18 @@ Lancer la commande : 'npm install' dans les deux repository 'TP1/TP2'
 
 ## Exécution des TP
 TP1: 
-- node ./script.js <nom du fichier datas>
+- node ./script.js data
 
 TP2:
-- node ./server.js <nom du fichier datas>
+- node ./server.js data
+
+TP3:
+- node ./server.js data
+
+Requêtes :
+
+- /users :
+![Image description](./img-readme/postman.jpg)
+
+- /cat.jpg :
+![Image description](./img-readme/cat.jpg)
