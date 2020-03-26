@@ -1,6 +1,1 @@
-{
-    "cities": [
-        { "id": "1", "name": "Al Hoceima"},
-        { "id": "2", "name": "Toulouse"}
-    ]
-}
+{"cities":[{"id":"1","name":"Al Hoceima"},{"id":"2","name":"Toulouse"},{"id":"115ed5ff-2bf1-4f24-955b-42ecb351d364","name":"Paris"}]}

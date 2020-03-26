@@ -65,7 +65,6 @@ app.get('/cities', (req, res) => {
 
 // POST: city
 app.post('/city', (req, res) => {
-    console.log("req", req.body)
     // Read the file
     fs.readFile('./cities.json', 'utf8', (err, data) => {
         if (err) {
@@ -74,24 +73,26 @@ app.post('/city', (req, res) => {
                 if (err) throw err;
                 console.log('File is created sucessfully.');
             });
-            // Add the city
-        } else if (data.indexOf(req.body.name) === -1) {
+        }
+        // Add the city
+        if (data.indexOf(req.body.name) === -1) {
             var newFile = JSON.parse(data);
-            console.log("File: ", newFile);
-            var size = newFile.cities.length;
-            var valueToAdd = JSON.parse('{ "id":"'+ uuid() +'", "name":"' + req.body.name +'"}');
-            console.log("Value to add: ", valueToAdd);
-            // VALUE TO ADD
-            newFile.cities.push(valueToAdd);
-            console.log("File after: ", newFile)
-            fs.writeFile('cities.json', newFile, (err) => {
+            // Add the new value
+            newFile.cities.push({
+                "id": uuid(),
+                "name": req.body.name
+            });
+            // Update the json file with the new value
+            fs.writeFile('cities.json', JSON.stringify(newFile), (err) => {
                 if (err) throw err;
+                res.redirect("/cities");
                 console.log('File is updated sucessfully.');
             });
         } else {
-            throw new Error('Already exist.')
+            // Throw error 500
+            throw new Error("Already exist.")
         }
-        res.statusCode = 200;
+        
     });
 });
 
