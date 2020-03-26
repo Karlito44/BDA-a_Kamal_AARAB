@@ -19,7 +19,7 @@ TP3:
 Requêtes :
 
 - /users :
-![Image description](./img-readme/postman.jpg)
+![alt text](./img-readme/postman.jpg)
 
 - /cat.jpg :
-![Image description](./img-readme/cat.jpg)
+![alt text](./img-readme/cat.jpg)
