@@ -1,0 +1,6 @@
+{
+    "cities": [
+        { "id": "1", "name": "Al Hoceima"},
+        { "id": "2", "name": "Toulouse"}
+    ]
+}
