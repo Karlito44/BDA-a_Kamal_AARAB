@@ -19,7 +19,7 @@ TP3:
 Requêtes :
 
 - /users :
-![alt text](https://github.com/Karlito44/BDA-a_Kamal_AARAB/edit/master/img-readme/postman.jpg)
+![alt text](https://github.com/Karlito44/BDA-a_Kamal_AARAB/edit/master/img-readme/postman.PNG)
 
 - /cat.jpg :
-![alt text](https://github.com/Karlito44/BDA-a_Kamal_AARAB/edit/master/img-readme/cat.jpg)
+![alt text](https://github.com/Karlito44/BDA-a_Kamal_AARAB/blob/master/img-readme/cat.PNG)
