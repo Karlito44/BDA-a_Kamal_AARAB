@@ -30,7 +30,7 @@ Requêtes :
 ![alt text](https://github.com/Karlito44/BDA-a_Kamal_AARAB/blob/master/img-readme/cat.PNG)
 
 ### TP4
-Lancer à la racine du dossier TP1 la commande : node ./server.js data
+Lancer à la racine du dossier TP4 la commande : node ./server.js data
 
 Requêtes :
 
