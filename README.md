@@ -1,4 +1,4 @@
-# BDA-a_Kamal_AARAB
+# BDA-a_Kamal_AARAB# BDA-a_Kamal_AARAB
 Git répertoriant les différents TP web du module BDAa.
 
 ## Pré-requis
@@ -30,7 +30,7 @@ Requêtes :
 ![alt text](https://github.com/Karlito44/BDA-a_Kamal_AARAB/blob/master/img-readme/cat.PNG)
 
 ### TP4
-Lancer à la racine du dossier TP1 la commande : node ./server.js data
+Lancer à la racine du dossier TP4 la commande : node ./server.js data
 
 Requêtes :
 
@@ -50,3 +50,22 @@ Requêtes :
 ![alt text](https://github.com/Karlito44/BDA-a_Kamal_AARAB/blob/master/img-readme/delete-500.PNG)
 
 
+### TP5
+Lancer à la racine du dossier TP5 la commande : node ./server.js
+
+Requêtes :
+
+- GET : /cities
+![alt text](https://github.com/Karlito44/BDA-a_Kamal_AARAB/blob/master/img-readme/db-cities.PNG)
+
+- POST : /city
+![alt text](https://github.com/Karlito44/BDA-a_Kamal_AARAB/blob/master/img-readme/db-city.PNG)
+![alt text](https://github.com/Karlito44/BDA-a_Kamal_AARAB/blob/master/img-readme/db-city-succes.PNG)
+
+- PUT : /city/:id
+![alt text](https://github.com/Karlito44/BDA-a_Kamal_AARAB/blob/master/img-readme/db-put.PNG)
+![alt text](https://github.com/Karlito44/BDA-a_Kamal_AARAB/blob/master/img-readme/db-put-succes.PNG)
+
+- DELETE : /city/:id
+![alt text](https://github.com/Karlito44/BDA-a_Kamal_AARAB/blob/master/img-readme/db-delete.PNG)
+![alt text](https://github.com/Karlito44/BDA-a_Kamal_AARAB/blob/master/img-readme/db-delete-succes.PNG)
