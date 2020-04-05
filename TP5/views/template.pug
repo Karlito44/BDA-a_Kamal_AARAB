@@ -1,0 +1,12 @@
+head
+style 
+  include style.css
+body
+<h1>Villes présentent dans la base MongoDB</h1>
+<table>
+<th class='title'>Id</th>
+<th class='title'>Ville</th>
+<th class='title'>Modifier</th>
+each value, index in Cities
+    <tr class=row><td>#{value.id}</td><td>#{value.name}</td><td><a href="/city/#{value.id}">Modifier</a></td></tr>
+</table>
